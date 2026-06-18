@@ -5,7 +5,7 @@
 **Created & Maintained by:** [Jeff Yang](https://github.com/j3ffyang)
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Total Skills](https://img.shields.io/badge/total%20skills-19-blue)](#platforms--skills-directory)
+[![Total Skills](https://img.shields.io/badge/total%20skills-20-blue)](#platforms--skills-directory)
 
 ---
 
@@ -17,7 +17,7 @@
 |----------|----------|--------|------------|
 | **Claude Code** | Cloud IDE automation, slash commands | 3 | [`claude-code/`](./claude-code/README.md) |
 | **OpenClaw** | Workflow automation, ClawHub registry | 14 | [`openclaw/`](./openclaw/README.md) |
-| **Hermes** | Agent orchestration, autonomous workflows | 2 | [`hermes/`](./hermes/README.md) |
+| **Hermes** | Agent orchestration, autonomous workflows | 3 | [`hermes/`](./hermes/README.md) |
 
 ---
 
@@ -76,11 +76,12 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 
 ---
 
-### Hermes (2 skills)
+### Hermes (3 skills)
 Deploy to Hermes agent platform for autonomous workflow orchestration and content generation.
 
 - **[`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/)** — Generate daily AI news newsletter from fresh web sources
 - **[`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/)** — Generate daily AI news newsletter for Chinese audience
+- **[`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/)** — Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) in Simplified Chinese
 
 **📖 Platform guide:** [`hermes/README.md`](./hermes/README.md)
 
@@ -174,11 +175,12 @@ ai-custom-skills/
 │   ├── image-to-video-gen/
 │   └── ... (11 more)
 │
-└── hermes/                      ← Hermes agent skills
+└── hermes/                      ← Hermes agent skills (3)
     ├── README.md
     ├── CONTRIBUTING.md
     ├── ai-newsletter-prompt/
-    └── ai-newsletter-prompt-chn/
+    ├── ai-newsletter-prompt-chn/
+    └── five-dynasties-ten-kingdoms-article/
 ```
 
 ---

@@ -12,6 +12,7 @@
 |-------|-------------|----------|
 | [`ai-newsletter-prompt`](./ai-newsletter-prompt/) | Generate daily AI news newsletter from fresh web sources | English |
 | [`ai-newsletter-prompt-chn`](./ai-newsletter-prompt-chn/) | Generate daily AI news newsletter for Chinese audience | 中文 |
+| [`five-dynasties-ten-kingdoms-article`](./five-dynasties-ten-kingdoms-article/) | Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) | 中文 |
 
 ---
 
