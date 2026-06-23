@@ -1,5 +1,9 @@
 # Claude Code Skills
 
+[English Version](../README.md) | [中文版本](./README_zh.md)
+
+---
+
 > Productivity automation and slash commands for [Claude Code](https://claude.ai/code) IDE.
 
 **← [Back to main](../README.md)**

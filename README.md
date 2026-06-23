@@ -5,9 +5,10 @@
 **Created & Maintained by:** [Jeff Yang](https://github.com/j3ffyang)
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Total Skills](https://img.shields.io/badge/total%20skills-20-blue)](#platforms--skills-directory)
+[![Total Skills](https://img.shields.io/badge/total%20skills-21-blue)](#platforms--skills-directory)
 
 ---
+[English](./README.md) | [中文版本](./README_zh.md) 
 
 ## Quick Navigation
 
@@ -16,14 +17,15 @@
 | Platform | Use Case | Skills | Learn More |
 |----------|----------|--------|------------|
 | **Claude Code** | Cloud IDE automation, slash commands | 3 | [`claude-code/`](./claude-code/README.md) |
-| **OpenClaw** | Workflow automation, ClawHub registry | 14 | [`openclaw/`](./openclaw/README.md) |
-| **Hermes** | Agent orchestration, autonomous workflows | 3 | [`hermes/`](./hermes/README.md) |
+| **OpenClaw** | Workflow automation, ClawHub registry | 16 | [`openclaw/`](./openclaw/README.md) | 
+| **Hermes** | Agent orchestration, autonomous workflows | 4 | [`hermes/`](./hermes/README.md) |
 
 ---
 
 ## Table of Contents
 
 - [Platforms & Skills Directory](#platforms--skills-directory)
+- [五代十国专题](#五代十国专题) (新增)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Contributing](#contributing)
@@ -56,6 +58,7 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 - **[`blog-polish-eng-single-image`](./openclaw/blog-polish-eng-single-image/)** — Polish English blog + generate hero image prompt
 - **[`blog-polish-eng-multi-images`](./openclaw/blog-polish-eng-multi-images/)** — Polish English blog + generate hero + per-section image prompts
 - **[`blog-polish-zhcn-images`](./openclaw/blog-polish-zhcn-images/)** — Polish Chinese blog + generate image prompts
+- **[`silk-essay-framework`](./openclaw/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) — cross-platform: Hermes & OpenClaw
 
 #### Image Generation
 - **[`blog-image-embedder`](./openclaw/blog-image-embedder/)** — Generate and embed image placeholders into blog markdown
@@ -76,12 +79,13 @@ Deploy to [ClawHub](https://clawhub.ai) registry for workflow automation, conten
 
 ---
 
-### Hermes (3 skills)
+### Hermes (4 skills)
 Deploy to Hermes agent platform for autonomous workflow orchestration and content generation.
 
 - **[`ai-newsletter-prompt`](./hermes/ai-newsletter-prompt/)** — Generate daily AI news newsletter from fresh web sources
 - **[`ai-newsletter-prompt-chn`](./hermes/ai-newsletter-prompt-chn/)** — Generate daily AI news newsletter for Chinese audience
 - **[`five-dynasties-ten-kingdoms-article`](./hermes/five-dynasties-ten-kingdoms-article/)** — Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) in Simplified Chinese
+- **[`silk-essay-framework`](./hermes/260620-silk-essay-chn/)** — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis
 
 **📖 Platform guide:** [`hermes/README.md`](./hermes/README.md)
 
@@ -100,7 +104,7 @@ Deploy to Hermes agent platform for autonomous workflow orchestration and conten
 ### For Hermes
 - [Hermes CLI](https://hermes.ai) installed and authenticated
 - Hermes agent runtime
-- API access as needed: BRAVE_API_KEY, FIRECRAWL_API_KEY
+- API access as needed: `BRAVE_API_KEY`, `FIRECRAWL_API_KEY`
 
 ---
 
@@ -173,14 +177,16 @@ ai-custom-skills/
 │   ├── ai-newsletter/
 │   ├── blog-polish-zhcn/
 │   ├── image-to-video-gen/
-│   └── ... (11 more)
+│   ├── 260620-silk-essay-chn/
+│   └── ... (12 more)
 │
-└── hermes/                      ← Hermes agent skills (3)
+└── hermes/                      ← Hermes agent skills (4)
     ├── README.md
     ├── CONTRIBUTING.md
     ├── ai-newsletter-prompt/
     ├── ai-newsletter-prompt-chn/
-    └── five-dynasties-ten-kingdoms-article/
+    ├── five-dynasties-ten-kingdoms-article/
+    └── 260620-silk-essay-chn/
 ```
 
 ---

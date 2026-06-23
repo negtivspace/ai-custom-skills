@@ -1,5 +1,9 @@
 # OpenClaw Skills
 
+[English Version](./README.md) | [中文版本](./README_zh.md)
+
+---
+
 > Production-ready skills for [OpenClaw](https://openclaw.ai) workflow automation platform, published to [ClawHub](https://clawhub.ai) registry.
 
 **← [Back to main](../README.md)**
@@ -8,22 +12,23 @@
 
 ## Skills by Category
 
-### Writing Framework (1)
+### Writing Framework (2)
 - [`indepth-perspective`](./indepth-perspective/) — Reusable framework for building persuasive, emotionally layered articles
+- [`silk-essay-framework`](./260620-silk-essay-chn/) — Deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis — [ClawHub](https://clawhub.ai/j3ffyang/260620-silk-essay-chn)
 
 ### Blog Polishing (5)
 - [`blog-polish-zhcn`](./blog-polish-zhcn/) — Polish and translate to Simplified Chinese
 - [`blog-polish-en-astro-cn`](./blog-polish-en-astro-cn/) — Polish to English + Chinese, convert to Astro markdown
-- [`blog-polish-eng-single-image`](./blog-polish-eng-single-image/) — Polish English + hero image prompt
-- [`blog-polish-eng-multi-images`](./blog-polish-eng-multi-images/) — Polish English + hero + per-section images
-- [`blog-polish-zhcn-images`](./blog-polish-zhcn-images/) — Polish Chinese + image prompts
+- [`blog-polish-eng-single-image`](./blog-polish-eng-single-image/) — Polish English blog + generate hero image prompt
+- [`blog-polish-eng-multi-images`](./blog-polish-eng-multi-images/) — Polish English blog + generate hero + per-section images
+- [`blog-polish-zhcn-images`](./blog-polish-zhcn-images/) — Polish Chinese blog + generate image prompts
 
 ### Image Generation (2)
 - [`blog-image-embedder`](./blog-image-embedder/) — Generate and embed image placeholders
 - [`blog-image-enricher`](./blog-image-enricher/) — Add header and section images to markdown
 
 ### Video Generation (1)
-- [`image-to-video-gen`](./image-to-video-gen/) — Generate cinematic MP4 from images using Google Veo
+- [`image-to-video-gen`](./image-to-video-gen/) — Generate cinematic MP4 videos from images using Google Veo
 
 ### News & Content (2)
 - [`ai-newsletter`](./ai-newsletter/) — Generate daily AI news newsletter
@@ -44,7 +49,7 @@
   - Image generation: OpenAI DALL-E-3
   - Video generation: Google Veo (via Vertex AI / Gemini API)
   - Vision analysis: Google Gemini 2.5 Flash
-  - Web research: BRAVE_API_KEY, FIRECRAWL_API_KEY
+  - Web research: `BRAVE_API_KEY`, `FIRECRAWL_API_KEY`
 
 ---
 

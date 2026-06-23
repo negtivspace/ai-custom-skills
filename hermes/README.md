@@ -1,4 +1,8 @@
-# Hermes Skills
+# Hermes技能
+
+[English Version](../README.md) | [中文版本](./README_zh.md)
+
+---
 
 > Production-ready skills for [Hermes](https://hermes.ai) agent platform — designed for autonomous workflow automation and intelligent task orchestration.
 
@@ -13,6 +17,7 @@
 | [`ai-newsletter-prompt`](./ai-newsletter-prompt/) | Generate daily AI news newsletter from fresh web sources | English |
 | [`ai-newsletter-prompt-chn`](./ai-newsletter-prompt-chn/) | Generate daily AI news newsletter for Chinese audience | 中文 |
 | [`five-dynasties-ten-kingdoms-article`](./five-dynasties-ten-kingdoms-article/) | Research and write a timeline-driven long-form article on the Five Dynasties and Ten Kingdoms period (五代十国, c. 907–979) | 中文 |
+| [`silk-essay-framework`](./260620-silk-essay-chn/) | Generate deep-dive article framework on Chinese silk textiles (绫罗绸缎) with historical, technical & literary analysis | 中文 |
 
 ---
 
@@ -21,7 +26,7 @@
 - [Hermes CLI](https://hermes.ai/docs/cli) installed and authenticated
 - Hermes agent runtime (local or managed)
 - API access as required:
-  - Web research: BRAVE_API_KEY, FIRECRAWL_API_KEY
+  - Web research: `BRAVE_API_KEY`, `FIRECRAWL_API_KEY`
   - Additional tools as noted in individual `SKILL.md` files
 
 ---
